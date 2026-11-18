@@ -3,7 +3,7 @@
 17 November 2026 · Owner: James Mark A. Gaddi · Coordinator: Codex  
 Destination: 04-Personal-Projects/Projects/Roamday
 
-James approved the discovery scope and selected on-device AI with a deterministic fallback. Initial build-plan approval is pending. A private, unpublished Sites project already exists. Application implementation and release verification have not started.
+James approved the discovery scope and selected on-device AI with a deterministic fallback. James approved the concrete mockup and implementation with “okay, proceed with the implementation” after the build plan and sample UI were presented. A private, unpublished Sites project already exists. Implementation authorized. Release review is separate.
 
 ## Instructions and planning evidence
 
@@ -25,4 +25,4 @@ The coordinator read workspace and Personal Projects AGENTS.md, the workspace gr
 
 React with strict TypeScript, Next.js App Router and Tailwind v4, with Java 21/Spring Boot 3.x for shared provider limits, lookups and caching. PostgreSQL is deferred because the pilot needs no accounts, shared private itineraries or reservation records. No stack exception requested. Shared rate limits and the cache must work across service instances before horizontal scaling. Actual dependency versions, hosting fit and advisory checks are open until implementation. The frontend and Java service can run locally for acceptance independently of a hosting decision.
 
-Planning and UI architecture guidance applied. Delivery, UI implementation, motion, polish, independent tests and release review are scheduled for their respective phases. Project-context onboarding is unnecessary in a fresh project. No billing activation, device permission request or model download occurred. Scope sign-off is recorded separately from pending initial plan approval and subsequent deployment authorization.
+Planning and UI architecture guidance applied. Delivery, UI implementation, motion, polish, independent tests and release review are scheduled for their respective phases. Project-context onboarding is unnecessary in a fresh project. No billing activation, device permission request or model download occurred. Scope sign-off is recorded separately from initial plan approval and subsequent deployment authorization.
